@@ -95,7 +95,7 @@ for each_pression,each_ans in zip(res_expression,target_ans):
         else:
             ans=eval(each_ans)
     except:
-        print("bad answer",ans)
+        print("bad answer",each_ans,ans)
         continue
     
     assert each_pression!=[]
