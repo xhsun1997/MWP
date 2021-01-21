@@ -9,4 +9,5 @@
 **也就是说在train_and_evaluate.py中的generate_tree_input函数中，num_start+generate_nums+num居然和num_start+num的结果差不多**
 
 ##### +generate_nums+group_attention之后的准确率是0.6145和0.7302(几乎没有提升)
+##### +group_attention之后的准确率是0.6176和0.7294(几乎没有提升)
 
